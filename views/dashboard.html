@@ -1,0 +1,9 @@
+{{>_header}}
+  <h2>Your Communities</h2>
+    {{#each communities}}
+
+    <li><a href="/communities/{{_id}}">{{name}}</a></li>
+
+    {{/each}}
+  <a href="/community/add" class="btn btn-primary">Add Community</a>
+{{_footer}}

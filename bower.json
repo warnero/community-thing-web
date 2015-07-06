@@ -1,0 +1,8 @@
+ {
+  "name": "community-thing-web",
+  "version": "0.0.1",
+  "dependencies": {
+    "fontawesome": "~4.2.0",
+    "bootswatch":"*"
+  }
+}

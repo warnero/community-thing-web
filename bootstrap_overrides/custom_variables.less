@@ -1,0 +1,52 @@
+// Colors from Material Palette - http://www.materialpalette.com/indigo/blue-grey
+@mtl-primary:           #3F51B5;
+@mtl-dk-primary:        #303F9F;
+@mtl-lt-primary:        #C5CAE9;
+@mtl-txt:               #FFFFFF;
+@mtl-accent:            #607D8B;
+@mtl-primary-txt:       #212121;
+@mtl-secondary-txt:     #727272;
+@mtl-divider:           #B6B6B6;
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              @mtl-primary-txt;
+@gray:                   #666;
+@gray-light:             #bbb;
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+
+@brand-primary:         @mtl-primary;
+@brand-success:         #4CAF50;
+@brand-info:            #9C27B0;
+@brand-warning:         #ff9800;
+@brand-danger:          #e51c23;
+
+//** Background color for `<body>`.
+@body-bg:               #fff;
+//** Global text color on `<body>`.
+@text-color:            @mtl-primary-txt;
+
+//** Global textual link color.
+@link-color:            @mtl-primary;
+//** Link hover color set via `darken()` function.
+@link-hover-color:      @mtl-dk-primary;
+//** Link hover decoration.
+@link-hover-decoration: underline;
+
+@headings-color:          @mtl-secondary-txt;
+
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:    #fff;
+//** Global background color for active items (e.g., navs or dropdowns).
+@component-active-bg:       @mtl-accent;
+
+//** Default background color used for all tables.
+@table-bg:                      transparent;
+//** Background color used for `.table-striped`.
+@table-bg-accent:               @mtl-accent;
+//** Background color used for `.table-hover`.
+@table-bg-hover:                @mtl-lt-primary;
+@table-bg-active:               @table-bg-hover;
+
+//** Border color for table and cell borders.
+@table-border-color:            @mtl-divider;

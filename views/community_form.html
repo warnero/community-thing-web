@@ -1,0 +1,35 @@
+{{_header}}
+  <form class="form-horizontal" method="post" action='/community/add'>
+    <fieldset>
+      <legend>Community</legend>
+      <div class="form-group">
+        <label for="name" class="col-lg-2 control-label">Community Name</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="description" class="col-lg-2 control-label">Description</label>
+        <div class="col-lg-10">
+          <textarea class="form-control" rows="3" id="description" name="description"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inviteOnly" class="col-lg-2 control-label">Password</label>
+        <div class="col-lg-10">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="inviteOnly" name="inviteOnly"> Invite Only?
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+          <button type="reset" class="btn btn-default">Cancel</button>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+{{_footer}}
